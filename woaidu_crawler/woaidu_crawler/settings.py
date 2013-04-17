@@ -20,8 +20,8 @@ CONCURRENT_REQUESTS_PER_IP = 0
 DEPTH_LIMIT = 0
 DEPTH_PRIORITY = 0
 DNSCACHE_ENABLED = True
-DUPEFILTER_CLASS = 'scrapy.dupefilter.RFPDupeFilter'
-SCHEDULER = 'scrapy.core.scheduler.Scheduler'
+#DUPEFILTER_CLASS = 'scrapy.dupefilter.RFPDupeFilter'
+#SCHEDULER = 'scrapy.core.scheduler.Scheduler'
 
 #AutoThrottle extension
 AUTOTHROTTLE_ENABLED = True
