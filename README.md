@@ -95,6 +95,10 @@ distribute_crawler
       cd woaidu_crawler/commands/
       python init_single_mongodb.py 
 ```
+* 设置settings.py：
+```
+     
+```
 * 在含有log文件夹的目录下执行:
 ```
       scrapy crawl woaidu
