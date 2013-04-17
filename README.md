@@ -96,7 +96,8 @@ distribute_crawler
       python init_single_mongodb.py 
 ```
 * 设置settings.py：
-```
+
+```python
       ITEM_PIPELINES = ['woaidu_crawler.pipelines.cover_image.WoaiduCoverImage',
           'woaidu_crawler.pipelines.bookfile.WoaiduBookFile',
           'woaidu_crawler.pipelines.drop_none_download.DropNoneBookFile',
