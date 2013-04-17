@@ -97,7 +97,11 @@ distribute_crawler
 ```
 * 设置settings.py：
 ```
-     
+      ITEM_PIPELINES = ['woaidu_crawler.pipelines.cover_image.WoaiduCoverImage',
+          'woaidu_crawler.pipelines.bookfile.WoaiduBookFile',
+          'woaidu_crawler.pipelines.drop_none_download.DropNoneBookFile',
+          'woaidu_crawler.pipelines.mongodb.SingleMongodbPipeline',
+          'woaidu_crawler.pipelines.final_test.FinalTestPipeline',]
 ```
 * 在含有log文件夹的目录下执行:
 ```
