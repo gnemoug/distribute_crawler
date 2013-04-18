@@ -112,7 +112,7 @@ distribute_crawler
 ```
       scrapy crawl woaidu
 ```
-* 打开http://127.0.0.1/ 通过图表查看spider实时状态信息
+* 打开http://127.0.0.1/ (也就是你运行的graphite-web的url) 通过图表查看spider实时状态信息
 * 要想尝试分布式，可以在另外一个目录运行此工程
 
 注意
