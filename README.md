@@ -66,6 +66,8 @@ distribute_crawler
 
 #mongodb集群存储
 * 安装scrapy
+* 安装redispy
+* 安装pymongo
 * 安装graphite(如何配置请查看：statscol/graphite.py)
 * 安装mongodb
 * 安装redis
@@ -85,6 +87,8 @@ distribute_crawler
 
 #mongodb
 * 安装scrapy
+* 安装redispy
+* 安装pymongo
 * 安装graphite(如何配置请查看：statscol/graphite.py)
 * 安装mongodb
 * 安装redis
