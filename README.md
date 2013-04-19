@@ -122,3 +122,12 @@ distribute_crawler
 ```
      python clear_stats.py
 ```
+
+Screenshots
+===========
+
+![graphite](https://raw.github.com/gnemoug/distribute_crawler/master/woaidu_crawler/woaidu_crawler/screenshots/graphite/Screenshot-2013-04-17%2016:32:51.png)
+![book_files](https://raw.github.com/gnemoug/distribute_crawler/master/woaidu_crawler/woaidu_crawler/screenshots/media/book_files/Screenshot-2013-04-17%2016:50:29.png)
+![book_files](https://raw.github.com/gnemoug/distribute_crawler/master/woaidu_crawler/woaidu_crawler/screenshots/media/book_files/Screenshot-2013-04-17%2016:52:03.png)
+![images](https://raw.github.com/gnemoug/distribute_crawler/master/woaidu_crawler/woaidu_crawler/screenshots/media/image/Screenshot-2013-04-17%2016:48:15.png)
+![terminal](https://raw.github.com/gnemoug/distribute_crawler/master/woaidu_crawler/woaidu_crawler/screenshots/runing/Screenshot-2013-04-17%2016:13:03.png)
