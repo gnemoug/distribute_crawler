@@ -139,7 +139,7 @@ class RedisStatsCollector(object):
     def inc_value(self, key, count=1, start=0, spider=None):
         if not self.server.hexists(self.stats_key,key):
             self.set_value(key, start)
-        self.server.hincrby(self.stats_key,key)
+        self.server.hincrby(self.stats_key,key,count)
 
     def max_value(self, key, value, spider=None):
         self.set_value(key, max(self.get_value(key,value),value))
